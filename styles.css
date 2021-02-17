@@ -1,0 +1,10 @@
+body {
+	background-color: darkslategrey;
+	color: white;
+	text-align: center;
+}
+
+#text {
+	border-right: solid white 4px;
+	height: 35px;
+}

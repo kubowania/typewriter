@@ -3,7 +3,7 @@ typewriter effect in JavaScript
 
 This is in support of a tutorial in which I show you how to make a typewriter effect in simple JavaScript, HTML and CSS. You can watch the video [here](https://youtu.be/mULM6KcF_mo).
 
-In this video I show you how to make a typewriter effect using if statements and nested loops.
+In this video I show you how to make a typewriter effect using if statements and timing events.
 
 When you have finished your project I would love for you to share it with me - you can find me on [YouTube](https://www.youtube.com/channel/UC5DNytAJ6_FISueUfzZCVsw)  or [Twitter](https://www.twitter.com/ania_kubow). 
 

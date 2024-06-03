@@ -19,12 +19,12 @@ function loop () {
     }
 
     if(isDeleting && j <= phrases[i].length) {
-      currentPhrase.pop(phrases[i][j])
+      currentPhrase.pop()
       j--
       textDisplay.innerHTML = currentPhrase.join('')
     }
 
-    if (j == phrases[i].length) {
+    if (j === phrases[i].length) {
       isEnd = true
       isDeleting = true
     }
@@ -38,8 +38,8 @@ function loop () {
       }
     }
   }
-  const spedUp = Math.random() * (80 -50) + 50
-  const normalSpeed = Math.random() * (300 -200) + 200
+  const spedUp = Math.random() * 80
+  const normalSpeed = Math.random() * 300
   const time = isEnd ? 2000 : isDeleting ? spedUp : normalSpeed
   setTimeout(loop, time)
 }
